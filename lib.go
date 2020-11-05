@@ -53,12 +53,12 @@ var (
 )
 
 func hashToG1(data []byte) *bls12381.PointG1 {
-	p1, _ := g1.HashToCurve(newBlake2b, data, dstG1)
+	p1, _ := g1.HashToCurve(data, dstG1)
 	return p1
 }
 
 func hashToG2(data []byte) *bls12381.PointG2 {
-	p2, _ := g2.HashToCurve(newBlake2b, data, dstG2)
+	p2, _ := g2.HashToCurve(data, dstG2)
 	return p2
 }
 
