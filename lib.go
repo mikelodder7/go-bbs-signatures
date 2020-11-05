@@ -20,7 +20,7 @@ package bbs
 
 import (
 	"golang.org/x/crypto/blake2b"
-	"github.com/mikelodder7/bls12-381"
+	"github.com/kilic/bls12-381"
 	"hash"
 	"math/big"
 )

@@ -3,7 +3,7 @@ package bbs
 import (
 	"crypto/subtle"
 	"crypto/rand"
-	"github.com/mikelodder7/bls12-381"
+	"github.com/kilic/bls12-381"
 )
 
 // The type for creating commitments to messages that are hidden during issuance.
