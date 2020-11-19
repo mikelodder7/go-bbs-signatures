@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math/big"
 
-	bls12381 "github.com/mikelodder7/bls12-381"
+	bls12381 "github.com/kilic/bls12-381"
 )
 
 type ProofChallenge struct {
